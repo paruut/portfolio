@@ -14,7 +14,7 @@ const Form = () => {
           Full Name:
         </label>
         <input
-          className="mt-1 block w-full px-3 py-2 bg-gray-700 dark:bg-white border border-gray-600 rounded-md text-sm shadow-sm placeholder-slate-400 focus:outline-none
+          className="mt-1 block w-full px-3 py-2 bg-gray-700 dark:bg-white dark:text-black border border-gray-600 rounded-md text-sm shadow-sm placeholder-slate-400 focus:outline-none
                   focus:border-teal-600 focus:ring-1 focus:ring-teal-600 disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 invalid:text-pink-600
                   focus:invalid:border-pink-500  focus:invalid:ring-pink-500"
           type="text"
@@ -32,7 +32,7 @@ const Form = () => {
           type="email"
           name="email"
           placeholder="email@domain.tld"
-          className="mt-1 block w-full px-3 py-2 bg-gray-700 dark:bg-white border border-gray-600 rounded-md text-sm shadow-sm placeholder-slate-400 focus:outline-none focus:border-teal-600 focus:ring-1
+          className="mt-1 block w-full px-3 py-2 bg-gray-700 dark:bg-white border dark:text-black  border-gray-600 rounded-md text-sm shadow-sm placeholder-slate-400 focus:outline-none focus:border-teal-600 focus:ring-1
                    focus:ring-teal-600 disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none invalid:text-pink-600
                     focus:invalid:border-pink-500  focus:invalid:ring-pink-500"
           required
@@ -43,7 +43,7 @@ const Form = () => {
           Message:
         </label>
         <textarea
-          className="mt-1 block w-full px-3 pt-2 pb-12 bg-gray-700 dark:bg-white border border-gray-600 rounded-md text-sm shadow-sm placeholder-slate-400 focus:outline-none
+          className="mt-1 block w-full px-3 pt-2 pb-12 bg-gray-700 dark:bg-white dark:text-black  border border-gray-600 rounded-md text-sm shadow-sm placeholder-slate-400 focus:outline-none
                   focus:border-teal-600 focus:ring-1 focus:ring-teal-600 disabled:bg-gray-700 disabled:text-slate-500 disabled:border-slate-200 invalid:text-pink-600
                   focus:invalid:border-pink-500  focus:invalid:ring-pink-500"
           id="message"
