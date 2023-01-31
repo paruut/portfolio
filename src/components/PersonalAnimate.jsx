@@ -7,7 +7,7 @@ const PersonalAnimate = () => {
           Patryk Rutkowski
         </h2>
         <h3 className="typewriter text-xl text-slate-300 py-2 xs:text-2xl md:text-3xl xl:text-4xl dark:text-gray-800">
-          Front-end developer
+          Front-end Developer
         </h3>
       </div>
   )

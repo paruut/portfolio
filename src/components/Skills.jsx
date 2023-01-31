@@ -47,15 +47,16 @@ const Skills = () => {
           } text-center mx-auto max-w-[400px] s:w-[100%] shadow-sm shadow-teal-600 p-10 rounded-xl mt-10 border-gray-700 border-2 bg-gray-800 dark:bg-slate-50`}
         >
           <p className="text-lg py-2 tracking-wider text-stone-300 dark:text-gray-600">
-            HTML, <br />
+            HTML5, <br />
             CSS/SCSS, <br />
             JavaScript, <br />
-            Tailwind, <br />
+            TailwindCSS, <br />
+            Styled-components, <br />
             React, <br />
             React Router, <br />
             Redux, <br />
-            Rest API, <br />
-            GIT/GitHub
+            REST API, <br />
+            Git/GitHub
           </p>
         </div>
 
@@ -68,7 +69,7 @@ const Skills = () => {
             Aug 2022 - Sep 2022
           </span>
           <h3 className="text-2xl py-2 font-bold tracking-wider text-stone-300 dark:text-gray-600">
-            Front-End Developer
+           Junior Front-End Developer
           </h3>
           <h4 className="text-lg py-1 tracking-wider text-stone-400 dark:text-gray-600">
             IBPM S.A, Warsaw
@@ -76,6 +77,36 @@ const Skills = () => {
           <p className="text-lg py-1 tracking-wider text-stone-400 dark:text-gray-600">
             Intern
           </p>
+        </div>
+        <div
+          className={`${
+            toggleState === 2 ? "content active-content" : "content"
+          } text-center mx-auto max-w-[400px] s:w-[100%] shadow-sm shadow-teal-600 p-10 rounded-xl mt-10 border-2 border-gray-700 bg-gray-800 dark:bg-slate-50`}
+        >
+          <span className="text-lg py-2 uppercase tracking-wider text-teal-600">
+            Sep 2022 - Jan 2023
+          </span>
+          <h3 className="text-2xl py-2 font-bold tracking-wider text-stone-300 dark:text-gray-600">
+           Junior Front-End Developer
+          </h3>
+          <h4 className="text-lg py-1 tracking-wider text-stone-400 dark:text-gray-600">
+            DKSoftware
+          </h4>
+        </div>
+        <div
+          className={`${
+            toggleState === 2 ? "content active-content" : "content"
+          } text-center mx-auto max-w-[400px] s:w-[100%] shadow-sm shadow-teal-600 p-10 rounded-xl mt-10 border-2 border-gray-700 bg-gray-800 dark:bg-slate-50`}
+        >
+          <span className="text-lg py-2 tracking-wider text-teal-600">
+            JAN 2023 - Currently
+          </span>
+          <h3 className="text-2xl py-2 font-bold tracking-wider text-stone-300 dark:text-gray-600">
+           Junior Front-End Developer
+          </h3>
+          <h4 className="text-lg py-1 tracking-wider text-stone-400 dark:text-gray-600">
+            Teldasoft
+          </h4>
         </div>
 
         <div

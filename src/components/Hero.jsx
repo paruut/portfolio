@@ -19,7 +19,7 @@ function Hero() {
         <a
           rel="noopener noreferrer"
           target={"_blank"}
-          href="https://www.linkedin.com/in/patryk-r-410219228/"
+          href="https://www.linkedin.com/in/patryk-rutkowski-410219228/"
         >
           <AiFillLinkedin className="cursor-pointer border-2 rounded-lg border-gray-600 hover:text-teal-600 hover:border-teal-600 duration-300 ease-in-out" />
         </a>
