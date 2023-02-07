@@ -28,18 +28,18 @@ const Portfolio = () => {
             className="rounded-lg object-cover h-[380px] w-[100%]"
             layout="responsive"
           />
-          <div className="overlay-description flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
-            <h2 className="text-teal-600 font-burtons text-2xl lg:text-3xl font-semibold">
+          <div className="overlay-description rounded-lg flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
+            <h2 className="text-teal-600 font-burtons text-xl xl:text-4xl lg:text-3xl font-semibold">
               Netflix clone
             </h2>
-            <p className="text-slate-300 font-burtons text-lg xl:text-xl">
+            <p className="text-slate-300 font-burtons text-md xl:text-xl">
             The application leverages Axios API to retrieve and display movies. Users to browse through a collection of movies and select their favorite titles. The login and registration panel is available. After creating an account and logging in, you can add a movie to your favorites and then view them in the "Profile" tab.
             </p>
             <p className="text-teal-600 font-burtons font-semibold text-lg lg:text-xl">
               Tools: React JS, Tailwind, Firebase
             </p>
             <a
-              className="py-3 px-3 no-underline text-center text-xl mt-2 font-semibold uppercase text-slate-300 rounded-lg bg-gray-800 border border-teal-600"
+              className="py-3 px-3 no-underline text-center text-md xl:text-xl mt-2 font-semibold uppercase text-slate-300 rounded-lg bg-gray-800 border border-teal-600"
               href="https://paruut-netflix-react.netlify.app/"
               target="_blank"
             >
@@ -53,11 +53,11 @@ const Portfolio = () => {
             className="rounded-lg object-cover h-[380px] w-[100%]"
             layout="responsive"
           />
-          <div className="overlay-description flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
-            <h2 className="text-teal-600 font-burtons text-2xl lg:text-3xl font-semibold">
+          <div className="overlay-description rounded-lg flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
+            <h2 className="text-teal-600 font-burtons text-xl xl:text-4xl lg:text-3xl font-semibold">
               Bank Modern App
             </h2>
-            <p className="text-slate-300 font-burtons text-lg xl:text-xl">
+            <p className="text-slate-300 font-burtons text-md xl:text-xl xl:text-xl">
               Responsive React JS application consisting of a stunning hero
               section, high-quality assets and gradients, business stats,
               reusable feature sections with call-to-action buttons,
@@ -67,7 +67,7 @@ const Portfolio = () => {
               Tools: React JS, Tailwind
             </p>
             <a
-              className="py-3 px-3 no-underline text-center text-xl mt-2 font-semibold uppercase text-slate-300 rounded-lg bg-gray-800 border border-teal-600"
+              className="py-3 px-3 no-underline text-center text-md xl:text-xl mt-2 font-semibold uppercase text-slate-300 rounded-lg bg-gray-800 border border-teal-600"
               href="https://modern-bank-app-react.netlify.app/"
               target="_blank"
             >
@@ -81,11 +81,11 @@ const Portfolio = () => {
             className="rounded-lg object-cover h-[380px] w-[100%]"
             layout="responsive"
           />
-          <div className="overlay-description font-burtons flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
-            <h2 className="text-teal-600 font-burtons text-2xl lg:text-3xl font-semibold">
+          <div className="overlay-description rounded-lg font-burtons flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
+            <h2 className="text-teal-600 font-burtons text-xl xl:text-4xl lg:text-3xl font-semibold">
               Lyriks - Music App
             </h2>
-            <p className="text-slate-300 font-burtons text-lg lg:text-xl">
+            <p className="text-slate-300 font-burtons text-md xl:text-xl lg:text-xl">
               Responsive React JS music application. Improved version of
               Spotify.
             </p>
@@ -93,7 +93,7 @@ const Portfolio = () => {
               Tools: React, Redux, Tailwind, RapidAPI
             </p>
             <a
-              className="py-3 px-3 no-underline text-center text-xl mt-2 font-semibold uppercase text-slate-300 rounded-lg bg-gray-800 border border-teal-600"
+              className="py-3 px-3 no-underline text-center text-md xl:text-xl mt-2 font-semibold uppercase text-slate-300 rounded-lg bg-gray-800 border border-teal-600"
               href="https://lyr-music-app.netlify.app/"
               target="_blank"
             >
@@ -107,11 +107,11 @@ const Portfolio = () => {
             className="rounded-lg object-cover h-[380px] w-[100%]"
             layout="responsive"
           />
-          <div className="overlay-description flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
-            <h2 className="text-teal-600 font-burtons text-2xl lg:text-3xl font-semibold">
+          <div className="overlay-description rounded-lg flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
+            <h2 className="text-teal-600 font-burtons text-xl xl:text-4xl lg:text-3xl font-semibold">
               Rest Countries API With Color Theme
             </h2>
-            <p className="text-slate-300 font-burtons text-lg xl:text-xl">
+            <p className="text-slate-300 font-burtons text-md xl:text-xl xl:text-xl">
               Responsive application with information about a given country such
               as population, region, capital. Dark/Light mode is available.
             </p>
@@ -119,7 +119,7 @@ const Portfolio = () => {
               Tools: HTML, CSS, JavaScript, Rest API
             </p>
             <a
-              className="py-3 px-3 no-underline text-center text-xl mt-2 font-semibold uppercase text-slate-300 rounded-lg bg-gray-800 border border-teal-600"
+              className="py-3 px-3 no-underline text-center text-md xl:text-xl mt-2 font-semibold uppercase text-slate-300 rounded-lg bg-gray-800 border border-teal-600"
               href="https://rest-countries-api-with-color-them.netlify.app/"
               target="_blank"
             >
@@ -133,11 +133,11 @@ const Portfolio = () => {
             className="rounded-lg object-cover h-[380px] w-[100%]"
             layout="responsive"
           />
-          <div className="overlay-description flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
-            <h2 className="text-teal-600 font-burtons text-2xl lg:text-3xl font-semibold">
+          <div className="overlay-description rounded-lg flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
+            <h2 className="text-teal-600 font-burtons text-xl xl:text-4xl lg:text-3xl font-semibold">
               Weather App API
             </h2>
-            <p className="text-slate-300 font-burtons text-lg xl:text-xl">
+            <p className="text-slate-300 font-burtons text-md xl:text-xl">
               The application shows information about the weather, wind strength
               and humidity for the selected city. After entering any city to
               search, you can use the Enter button on the keyboard or
@@ -147,7 +147,7 @@ const Portfolio = () => {
               Tools: HTML, CSS, JavaScript, Rest API
             </p>
             <a
-              className="py-3 px-3 no-underline text-center text-xl mt-2 font-semibold uppercase text-slate-300 rounded-lg bg-gray-800 border border-teal-600"
+              className="py-3 px-3 no-underline text-center text-md xl:text-xl mt-2 font-semibold uppercase text-slate-300 rounded-lg bg-gray-800 border border-teal-600"
               href="https://wweather-app-api.netlify.app/"
               target="_blank"
             >
@@ -161,11 +161,11 @@ const Portfolio = () => {
             className="rounded-lg object-cover h-[380px] w-[100%]"
             layout="responsive"
           />
-          <div className="overlay-description font-burtons flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
-            <h2 className="text-teal-600 font-burtons text-2xl lg:text-3xl font-semibold">
+          <div className="overlay-description rounded-lg font-burtons flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
+            <h2 className="text-teal-600 font-burtons text-xl xl:text-4xl lg:text-3xl font-semibold">
               Olkarline website
             </h2>
-            <p className="text-slate-300 font-burtons text-lg lg:text-xl">
+            <p className="text-slate-300 font-burtons text-md xl:text-xl lg:text-xl">
               Olkarline website. Website made by me to the client's
               specifications.
             </p>
@@ -173,7 +173,7 @@ const Portfolio = () => {
               Tools: HTML, CSS, JavaScript, PHP
             </p>
             <a
-              className="py-3 px-3 no-underline text-center text-xl mt-2 font-semibold uppercase text-slate-300 rounded-lg bg-gray-800 border border-teal-600"
+              className="py-3 px-3 no-underline text-center text-md xl:text-xl mt-2 font-semibold uppercase text-slate-300 rounded-lg bg-gray-800 border border-teal-600"
               href="https://olkarline.pl/"
               target="_blank"
             >
@@ -187,18 +187,18 @@ const Portfolio = () => {
             className="rounded-lg object-cover h-[380px] w-[100%]"
             layout="responsive"
           />
-          <div className="overlay-description font-burtons flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
-            <h2 className="text-teal-600 font-burtons text-2xl lg:text-3xl font-semibold">
+          <div className="overlay-description rounded-lg font-burtons flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
+            <h2 className="text-teal-600 font-burtons text-xl xl:text-4xl lg:text-3xl font-semibold">
               Tip Calculator App
             </h2>
-            <p className="text-slate-300 font-burtons text-lg lg:text-xl">
+            <p className="text-slate-300 font-burtons text-md xl:text-xl lg:text-xl">
               An application that allows you to calculate tips.
             </p>
             <p className="text-teal-600 font-burtons font-semibold text-lg lg:text-xl">
               Tools: HTML, CSS, JavaScript
             </p>
             <a
-              className="py-3 px-3 no-underline text-center text-xl mt-2 font-semibold uppercase text-slate-300 rounded-lg bg-gray-800 border border-teal-600"
+              className="py-3 px-3 no-underline text-center text-md xl:text-xl mt-2 font-semibold uppercase text-slate-300 rounded-lg bg-gray-800 border border-teal-600"
               href="https://tip-calculator-appp.netlify.app/"
               target="_blank"
             >
@@ -212,11 +212,11 @@ const Portfolio = () => {
             className="rounded-lg object-cover h-[380px] w-[100%]"
             layout="responsive"
           />
-          <div className="overlay-description font-burtons flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
-            <h2 className="text-teal-600 font-burtons text-2xl lg:text-3xl font-semibold">
+          <div className="overlay-description rounded-lg font-burtons flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
+            <h2 className="text-teal-600 font-burtons text-xl xl:text-4xl lg:text-3xl font-semibold">
               E-commerce Website
             </h2>
-            <p className="text-slate-300 font-burtons text-lg lg:text-xl">
+            <p className="text-slate-300 font-burtons text-md xl:text-xl lg:text-xl">
               Responsive e-commerce website with option to add or remove
               products from the shopping basket.
             </p>
@@ -224,7 +224,7 @@ const Portfolio = () => {
               Tools: HTML, CSS, JavaScript
             </p>
             <a
-              className="py-3 px-3 no-underline text-center text-xl mt-2 font-semibold uppercase text-slate-300 rounded-lg bg-gray-800 border border-teal-600"
+              className="py-3 px-3 no-underline text-center text-md xl:text-xl mt-2 font-semibold uppercase text-slate-300 rounded-lg bg-gray-800 border border-teal-600"
               href="https://ecommerce-pro-duct-page.netlify.app/"
               target="_blank"
             >
@@ -238,18 +238,18 @@ const Portfolio = () => {
             className="rounded-lg object-cover h-[380px] w-[100%]"
             layout="responsive"
           />
-          <div className="overlay-description font-burtons flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
-            <h2 className="text-teal-600 font-burtons text-2xl lg:text-3xl font-semibold">
+          <div className="overlay-description rounded-lg font-burtons flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
+            <h2 className="text-teal-600 font-burtons text-xl xl:text-4xl lg:text-3xl font-semibold">
               Rock, Paper, Scissors
             </h2>
-            <p className="text-slate-300 font-burtons text-lg lg:text-xl">
+            <p className="text-slate-300 font-burtons text-md xl:text-xl lg:text-xl">
               Rock, Paper, Scissors - game
             </p>
             <p className="text-teal-600 font-burtons font-semibold text-lg lg:text-xl">
               Tools: HTML, CSS, JavaScript
             </p>
             <a
-              className="py-3 px-3 no-underline text-center text-xl mt-2 font-semibold uppercase text-slate-300 rounded-lg bg-gray-800 border border-teal-600"
+              className="py-3 px-3 no-underline text-center text-md xl:text-xl mt-2 font-semibold uppercase text-slate-300 rounded-lg bg-gray-800 border border-teal-600"
               href="https://ro-ck-pa-per-sciss-ors.netlify.app/"
               target="_blank"
             >
@@ -263,18 +263,18 @@ const Portfolio = () => {
             className="rounded-lg object-cover h-[380px] w-[100%]"
             layout="responsive"
           />
-          <div className="overlay-description font-burtons flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
-            <h2 className="text-teal-600 font-burtons text-2xl lg:text-3xl font-semibold">
+          <div className="overlay-description rounded-lg font-burtons flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
+            <h2 className="text-teal-600 font-burtons text-xl xl:text-4xl lg:text-3xl font-semibold">
               Starbucks Website Clon Design
             </h2>
-            <p className="text-slate-300 font-burtons text-lg lg:text-xl">
+            <p className="text-slate-300 font-burtons text-md xl:text-xl lg:text-xl">
               Starbucks website
             </p>
             <p className="text-teal-600 font-burtons font-semibold text-lg lg:text-xl">
               Tools: HTML, CSS, JavaScript
             </p>
             <a
-              className="py-3 px-3 no-underline text-center text-xl mt-2 font-semibold uppercase text-slate-300 rounded-lg bg-gray-800 border border-teal-600"
+              className="py-3 px-3 no-underline text-center text-md xl:text-xl mt-2 font-semibold uppercase text-slate-300 rounded-lg bg-gray-800 border border-teal-600"
               href="https://starbucks-clon-website.netlify.app/"
               target="_blank"
             >
