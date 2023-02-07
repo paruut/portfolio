@@ -11,12 +11,13 @@ const Personal = () => {
           About me
         </h2>
         <p className="text-lg py-5 leading-8 text-white md:trxt-xl max-w-2xl mx-auto dark:text-gray-700">
-          My name is Patryk Rutkowski. I am training towards a Front End
-          Developer. I would describe myself as an ambitious person, constantly
-          striving for self-development and broadening his own horizons. Due to
-          my interest in Front-end Development, I started improving my
-          programming skills and I have been constantly learning new tools and technologies. I am open to
-          learn new things and libraries to make me a better developer.
+          My name is Patryk Rutkowski. I am a Junior Frontend Developer with 9
+          months of experience. I would describe myself as an ambitious person,
+          constantly striving for self-development and broadening his own
+          horizons. My interest in Frontend Development has led me to constantly
+          improve my programming skills and keep up with new tools and
+          technologies. I am open to learning new things and libraries in order
+          to become a better developer and achieve my professional goals.
         </p>
       </div>
     </section>

@@ -8,6 +8,7 @@ import web6 from "../public/web6.png";
 import web7 from "../public/web7.png";
 import web8 from "../public/web8.png";
 import web9 from "../public/web9.png";
+import web10 from "../public/web10.png";
 
 const Portfolio = () => {
   return (
@@ -21,6 +22,31 @@ const Portfolio = () => {
         </h2>
       </div>
       <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+        <div className="overlay basis-1/3 flex-1 relative">
+          <img
+            src={web10}
+            className="rounded-lg object-cover h-[380px] w-[100%]"
+            layout="responsive"
+          />
+          <div className="overlay-description flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
+            <h2 className="text-teal-600 font-burtons text-2xl lg:text-3xl font-semibold">
+              Netflix clone
+            </h2>
+            <p className="text-slate-300 font-burtons text-lg xl:text-xl">
+            The application leverages Axios API to retrieve and display movies. Users to browse through a collection of movies and select their favorite titles. The login and registration panel is available. After creating an account and logging in, you can add a movie to your favorites and then view them in the "Profile" tab.
+            </p>
+            <p className="text-teal-600 font-burtons font-semibold text-lg lg:text-xl">
+              Tools: React JS, Tailwind, Firebase
+            </p>
+            <a
+              className="py-3 px-3 no-underline text-center text-xl mt-2 font-semibold uppercase text-slate-300 rounded-lg bg-gray-800 border border-teal-600"
+              href="https://paruut-netflix-react.netlify.app/"
+              target="_blank"
+            >
+              live version
+            </a>
+          </div>
+        </div>
         <div className="overlay basis-1/3 flex-1 relative">
           <img
             src={web1}
@@ -83,10 +109,11 @@ const Portfolio = () => {
           />
           <div className="overlay-description flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
             <h2 className="text-teal-600 font-burtons text-2xl lg:text-3xl font-semibold">
-            Rest Countries API With Color Theme
+              Rest Countries API With Color Theme
             </h2>
             <p className="text-slate-300 font-burtons text-lg xl:text-xl">
-              Responsive application with information about a given country such as population, region, capital. Dark/Light mode is available.
+              Responsive application with information about a given country such
+              as population, region, capital. Dark/Light mode is available.
             </p>
             <p className="text-teal-600 font-burtons font-semibold text-lg lg:text-xl">
               Tools: HTML, CSS, JavaScript, Rest API
@@ -108,7 +135,7 @@ const Portfolio = () => {
           />
           <div className="overlay-description flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
             <h2 className="text-teal-600 font-burtons text-2xl lg:text-3xl font-semibold">
-            Weather App API
+              Weather App API
             </h2>
             <p className="text-slate-300 font-burtons text-lg xl:text-xl">
               The application shows information about the weather, wind strength
@@ -147,7 +174,7 @@ const Portfolio = () => {
             </p>
             <a
               className="py-3 px-3 no-underline text-center text-xl mt-2 font-semibold uppercase text-slate-300 rounded-lg bg-gray-800 border border-teal-600"
-              href="https://olkarline.netlify.app/"
+              href="https://olkarline.pl/"
               target="_blank"
             >
               live version
@@ -162,10 +189,10 @@ const Portfolio = () => {
           />
           <div className="overlay-description font-burtons flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
             <h2 className="text-teal-600 font-burtons text-2xl lg:text-3xl font-semibold">
-            Tip Calculator App
+              Tip Calculator App
             </h2>
             <p className="text-slate-300 font-burtons text-lg lg:text-xl">
-            An application that allows you to calculate tips.
+              An application that allows you to calculate tips.
             </p>
             <p className="text-teal-600 font-burtons font-semibold text-lg lg:text-xl">
               Tools: HTML, CSS, JavaScript
@@ -187,10 +214,11 @@ const Portfolio = () => {
           />
           <div className="overlay-description font-burtons flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
             <h2 className="text-teal-600 font-burtons text-2xl lg:text-3xl font-semibold">
-            E-commerce Website
+              E-commerce Website
             </h2>
             <p className="text-slate-300 font-burtons text-lg lg:text-xl">
-              Responsive e-commerce website with option to add or remove products from the shopping basket.
+              Responsive e-commerce website with option to add or remove
+              products from the shopping basket.
             </p>
             <p className="text-teal-600 font-burtons font-semibold text-lg lg:text-xl">
               Tools: HTML, CSS, JavaScript
@@ -212,7 +240,7 @@ const Portfolio = () => {
           />
           <div className="overlay-description font-burtons flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
             <h2 className="text-teal-600 font-burtons text-2xl lg:text-3xl font-semibold">
-            Rock, Paper, Scissors
+              Rock, Paper, Scissors
             </h2>
             <p className="text-slate-300 font-burtons text-lg lg:text-xl">
               Rock, Paper, Scissors - game
@@ -236,7 +264,9 @@ const Portfolio = () => {
             layout="responsive"
           />
           <div className="overlay-description font-burtons flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
-            <h2 className="text-teal-600 font-burtons text-2xl lg:text-3xl font-semibold">Starbucks Website Clon Design</h2>
+            <h2 className="text-teal-600 font-burtons text-2xl lg:text-3xl font-semibold">
+              Starbucks Website Clon Design
+            </h2>
             <p className="text-slate-300 font-burtons text-lg lg:text-xl">
               Starbucks website
             </p>

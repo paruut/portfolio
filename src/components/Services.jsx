@@ -15,7 +15,7 @@ const Services = () => {
         </h2>
       </div>
       <div className="lg:flex gap-10">
-        <div className="text-center s:w-[100%] lg:w-[33.3%] shadow-sm shadow-teal-600 p-10 rounded-xl my-10 border-2 bg-gray-800 border-gray-700 dark:bg-slate-50">
+        <div className="text-center s:w-[100%] lg:w-[33.3%] shadow-sm shadow-teal-600 p-10 rounded-xl my-10 border-2 bg-gray-800 border-gray-700 dark:bg-slate-100">
           <img
             src={design}
             alt="design-img"
@@ -31,7 +31,7 @@ const Services = () => {
             core design theory.
           </p>
         </div>
-        <div className="text-center s:w-[100%] lg:w-[33.3%] shadow-sm shadow-teal-600 p-10 rounded-xl my-10 border-2 bg-gray-800 border-gray-700 dark:bg-slate-50">
+        <div className="text-center s:w-[100%] lg:w-[33.3%] shadow-sm shadow-teal-600 p-10 rounded-xl my-10 border-2 bg-gray-800 border-gray-700 dark:bg-slate-100">
           <img
             src={code}
             alt="code-img"
@@ -47,7 +47,7 @@ const Services = () => {
             reality.
           </p>
         </div>
-        <div className="text-center s:w-[100%] lg:w-[33.3%] shadow-sm shadow-teal-600 p-10 rounded-xl my-10 border-2 bg-gray-800 border-gray-700 dark:bg-slate-50">
+        <div className="text-center s:w-[100%] lg:w-[33.3%] shadow-sm shadow-teal-600 p-10 rounded-xl my-10 border-2 bg-gray-800 border-gray-700 dark:bg-slate-100">
           <img
             src={consulting}
             alt="consulting-img"

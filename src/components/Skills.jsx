@@ -44,7 +44,7 @@ const Skills = () => {
         <div
           className={`${
             toggleState === 1 ? "content active-content" : "content"
-          } text-center mx-auto max-w-[400px] s:w-[100%] shadow-sm shadow-teal-600 p-10 rounded-xl mt-10 border-gray-700 border-2 bg-gray-800 dark:bg-slate-50`}
+          } text-center mx-auto max-w-[400px] s:w-[100%] shadow-sm shadow-teal-600 p-10 rounded-xl mt-10 border-gray-700 border-2 bg-gray-800 dark:bg-slate-100`}
         >
           <p className="text-lg py-2 tracking-wider text-stone-300 dark:text-gray-600">
             HTML5, <br />
@@ -63,16 +63,16 @@ const Skills = () => {
         <div
           className={`${
             toggleState === 2 ? "content active-content" : "content"
-          } text-center mx-auto max-w-[400px] s:w-[100%] shadow-sm shadow-teal-600 p-10 rounded-xl mt-10 border-2 border-gray-700 bg-gray-800 dark:bg-slate-50`}
+          } text-center mx-auto max-w-[400px] s:w-[100%] shadow-sm shadow-teal-600 p-10 rounded-xl mt-10 border-2 border-gray-700 bg-gray-800 dark:bg-slate-100`}
         >
           <span className="text-lg py-2 uppercase tracking-wider text-teal-600">
             Aug 2022 - Sep 2022
           </span>
           <h3 className="text-2xl py-2 font-bold tracking-wider text-stone-300 dark:text-gray-600">
-           Junior Front-End Developer
+            Junior Frontend Developer
           </h3>
           <h4 className="text-lg py-1 tracking-wider text-stone-400 dark:text-gray-600">
-            IBPM S.A, Warsaw
+            IBPM S.A., Warsaw
           </h4>
           <p className="text-lg py-1 tracking-wider text-stone-400 dark:text-gray-600">
             Intern
@@ -81,28 +81,33 @@ const Skills = () => {
         <div
           className={`${
             toggleState === 2 ? "content active-content" : "content"
-          } text-center mx-auto max-w-[400px] s:w-[100%] shadow-sm shadow-teal-600 p-10 rounded-xl mt-10 border-2 border-gray-700 bg-gray-800 dark:bg-slate-50`}
+          } text-center mx-auto max-w-[400px] s:w-[100%] shadow-sm shadow-teal-600 p-10 rounded-xl mt-10 border-2 border-gray-700 bg-gray-800 dark:bg-slate-100`}
         >
           <span className="text-lg py-2 uppercase tracking-wider text-teal-600">
             Sep 2022 - Jan 2023
           </span>
           <h3 className="text-2xl py-2 font-bold tracking-wider text-stone-300 dark:text-gray-600">
-           Junior Front-End Developer
+            Junior Frontend Developer
           </h3>
           <h4 className="text-lg py-1 tracking-wider text-stone-400 dark:text-gray-600">
             DKSoftware
           </h4>
+          <p className="text-md py-1 tracking-wider text-stone-50 dark:text-gray-600">
+            - I was responsible for creating web applications using technologies
+            such as HTML5, CSS, TailwindCSS, JavaScript, and React;<br></br>- built
+            single page applications using REST API communication;
+          </p>
         </div>
         <div
           className={`${
             toggleState === 2 ? "content active-content" : "content"
-          } text-center mx-auto max-w-[400px] s:w-[100%] shadow-sm shadow-teal-600 p-10 rounded-xl mt-10 border-2 border-gray-700 bg-gray-800 dark:bg-slate-50`}
+          } text-center mx-auto max-w-[400px] s:w-[100%] shadow-sm shadow-teal-600 p-10 rounded-xl mt-10 border-2 border-gray-700 bg-gray-800 dark:bg-slate-100`}
         >
           <span className="text-lg py-2 tracking-wider text-teal-600">
             JAN 2023 - Currently
           </span>
           <h3 className="text-2xl py-2 font-bold tracking-wider text-stone-300 dark:text-gray-600">
-           Junior Front-End Developer
+            Junior Frontend Developer
           </h3>
           <h4 className="text-lg py-1 tracking-wider text-stone-400 dark:text-gray-600">
             Teldasoft
@@ -112,14 +117,17 @@ const Skills = () => {
         <div
           className={`${
             toggleState === 3 ? "content active-content" : "content"
-          } text-center mx-auto max-w-[400px] s:w-[100%] shadow-sm shadow-teal-600 p-10 rounded-xl mt-10 border-2 border-gray-700 bg-gray-800 dark:bg-slate-50`}
+          } text-center mx-auto max-w-[400px] s:w-[100%] shadow-sm shadow-teal-600 p-10 rounded-xl mt-10 border-2 border-gray-700 bg-gray-800 dark:bg-slate-100`}
         >
           <span className="text-lg py-2 capitalize tracking-wider text-teal-600">
-            2022 - Currently
+            2022 - 2025
           </span>
-          <h3 className="text-2xl py-2 font-bold tracking-wider text-stone-300 dark:text-gray-600">
+          <h3 className="text-2xl pt-2 font-bold tracking-wider text-stone-300 dark:text-gray-600">
             Computer Science
           </h3>
+          <p className="text-lg tracking-wider text-stone-500 dark:text-gray-600">
+            Engineer's degree
+          </p>
           <h4 className="text-lg py-1 tracking-wider text-stone-400 dark:text-gray-600">
             WSB Warsaw University
           </h4>

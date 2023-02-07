@@ -7,7 +7,7 @@ const Form = () => {
     <form
       action="https://formspree.io/f/xyyvlqbg"
       method="POST"
-      className="w-[100%] shadow-sm shadow-teal-600 p-10  text-slate-50 rounded-xl my-10 border-gray-700 border-2 bg-gray-800 dark:bg-slate-50"
+      className="w-[100%] shadow-sm shadow-teal-600 p-10  text-slate-50 rounded-xl my-10 border-gray-700 border-2 bg-gray-800 dark:bg-slate-100"
     >
       <div className="flex flex-col">
         <label className="py-1 px-1 text-slate-300 dark:text-gray-700" htmlFor="name">

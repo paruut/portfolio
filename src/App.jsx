@@ -9,7 +9,7 @@ import Contact from "./components/Contact";
 const App = () => {
   return (
     <div>
-      <main className="bg-gray-900 px-10 md:px-20 lg:px-40 dark:bg-slate-50">
+      <main className="bg-gray-900 px-10 md:px-20 lg:px-40 dark:bg-slate-200">
         <Hero />
         <Personal />
         <Skills />

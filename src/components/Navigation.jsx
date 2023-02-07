@@ -32,7 +32,7 @@ const Navigation = () => {
         <li>
           <BsFillMoonStarsFill
             onClick={() => setDarkMode(!darkMode)}
-            className="cursor-pointer text-2xl text-slate-300 dark:text-gray-800"
+            className="cursor-pointer text-2xl text-slate-100 dark:text-gray-800"
           />
         </li>
         <li>
