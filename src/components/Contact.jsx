@@ -26,7 +26,7 @@ const Contact = () => {
       </div>
       <div className="text-4xl xs:text-5xl flex text-slate-300 justify-center dark:text-gray-700">
         <button>
-          <FaArrowCircleUp onClick={scrollToTop} />
+          <FaArrowCircleUp onClick={scrollToTop} className="up-down-arrow" />
         </button>
       </div>
       <div className="font-burtons">

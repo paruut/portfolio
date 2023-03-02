@@ -94,8 +94,8 @@ const Skills = () => {
           </h4>
           <p className="text-md py-1 tracking-wider text-stone-50 dark:text-gray-600">
             - I was responsible for creating web applications using technologies
-            such as HTML5, CSS, TailwindCSS, JavaScript, and React;<br></br>- built
-            single page applications using REST API communication;
+            such as HTML5, CSS, TailwindCSS, JavaScript, and React;<br></br>-
+            built single page applications using REST API communication;
           </p>
         </div>
         <div
@@ -112,6 +112,14 @@ const Skills = () => {
           <h4 className="text-lg py-1 tracking-wider text-stone-400 dark:text-gray-600">
             Teldasoft
           </h4>
+          <p className="text-md py-1 tracking-wider text-stone-50 dark:text-gray-600">
+            - I am responsible for developing an application in React. My tasks
+            include creating and modifying user interface components, managing
+            application state using React state management, and integrating the
+            application with the backend;<br></br>- I also try to acquire new skills in
+            other technologies that may be useful in my work as a frontend
+            developer;
+          </p>
         </div>
 
         <div

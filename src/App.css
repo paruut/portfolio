@@ -85,3 +85,22 @@ a {
   from, to { border-color: transparent }
   50% { border-color: orange; }
 }
+
+/* animation  */
+
+.up-down-arrow {
+  animation: upDown 1s ease-in-out infinite;
+}
+
+@keyframes upDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+

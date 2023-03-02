@@ -28,7 +28,7 @@ const Portfolio = () => {
             className="rounded-lg object-cover h-[380px] w-[100%]"
             layout="responsive"
           />
-          <div className="overlay-description rounded-lg flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
+          <div className="overlay-description rounded-lg flex flex-col gap-3 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
             <h2 className="text-teal-600 font-burtons text-xl xl:text-4xl lg:text-3xl font-semibold">
               Netflix clone
             </h2>
@@ -53,7 +53,7 @@ const Portfolio = () => {
             className="rounded-lg object-cover h-[380px] w-[100%]"
             layout="responsive"
           />
-          <div className="overlay-description rounded-lg flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
+          <div className="overlay-description rounded-lg flex flex-col gap-3 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
             <h2 className="text-teal-600 font-burtons text-xl xl:text-4xl lg:text-3xl font-semibold">
               Bank Modern App
             </h2>
@@ -81,7 +81,7 @@ const Portfolio = () => {
             className="rounded-lg object-cover h-[380px] w-[100%]"
             layout="responsive"
           />
-          <div className="overlay-description rounded-lg font-burtons flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
+          <div className="overlay-description rounded-lg font-burtons flex flex-col gap-3 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
             <h2 className="text-teal-600 font-burtons text-xl xl:text-4xl lg:text-3xl font-semibold">
               Lyriks - Music App
             </h2>
@@ -107,7 +107,7 @@ const Portfolio = () => {
             className="rounded-lg object-cover h-[380px] w-[100%]"
             layout="responsive"
           />
-          <div className="overlay-description rounded-lg flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
+          <div className="overlay-description rounded-lg flex flex-col gap-3 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
             <h2 className="text-teal-600 font-burtons text-xl xl:text-4xl lg:text-3xl font-semibold">
               Rest Countries API With Color Theme
             </h2>
@@ -133,7 +133,7 @@ const Portfolio = () => {
             className="rounded-lg object-cover h-[380px] w-[100%]"
             layout="responsive"
           />
-          <div className="overlay-description rounded-lg flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
+          <div className="overlay-description rounded-lg flex flex-col gap-3 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
             <h2 className="text-teal-600 font-burtons text-xl xl:text-4xl lg:text-3xl font-semibold">
               Weather App API
             </h2>
@@ -161,7 +161,7 @@ const Portfolio = () => {
             className="rounded-lg object-cover h-[380px] w-[100%]"
             layout="responsive"
           />
-          <div className="overlay-description rounded-lg font-burtons flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
+          <div className="overlay-description rounded-lg font-burtons flex flex-col gap-3 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
             <h2 className="text-teal-600 font-burtons text-xl xl:text-4xl lg:text-3xl font-semibold">
               Olkarline website
             </h2>
@@ -170,7 +170,7 @@ const Portfolio = () => {
               specifications.
             </p>
             <p className="text-teal-600 font-burtons font-semibold text-lg lg:text-xl">
-              Tools: HTML, CSS, JavaScript, PHP
+              Tools: HTML, CSS, JavaScript
             </p>
             <a
               className="py-3 px-3 no-underline text-center text-md xl:text-xl mt-2 font-semibold uppercase text-slate-300 rounded-lg bg-gray-800 border border-teal-600"
@@ -187,7 +187,7 @@ const Portfolio = () => {
             className="rounded-lg object-cover h-[380px] w-[100%]"
             layout="responsive"
           />
-          <div className="overlay-description rounded-lg font-burtons flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
+          <div className="overlay-description rounded-lg font-burtons flex flex-col gap-3 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
             <h2 className="text-teal-600 font-burtons text-xl xl:text-4xl lg:text-3xl font-semibold">
               Tip Calculator App
             </h2>
@@ -212,7 +212,7 @@ const Portfolio = () => {
             className="rounded-lg object-cover h-[380px] w-[100%]"
             layout="responsive"
           />
-          <div className="overlay-description rounded-lg font-burtons flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
+          <div className="overlay-description rounded-lg font-burtons flex flex-col gap-3 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
             <h2 className="text-teal-600 font-burtons text-xl xl:text-4xl lg:text-3xl font-semibold">
               E-commerce Website
             </h2>
@@ -238,7 +238,7 @@ const Portfolio = () => {
             className="rounded-lg object-cover h-[380px] w-[100%]"
             layout="responsive"
           />
-          <div className="overlay-description rounded-lg font-burtons flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
+          <div className="overlay-description rounded-lg font-burtons flex flex-col gap-3 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
             <h2 className="text-teal-600 font-burtons text-xl xl:text-4xl lg:text-3xl font-semibold">
               Rock, Paper, Scissors
             </h2>
@@ -263,7 +263,7 @@ const Portfolio = () => {
             className="rounded-lg object-cover h-[380px] w-[100%]"
             layout="responsive"
           />
-          <div className="overlay-description rounded-lg font-burtons flex flex-col gap-5 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
+          <div className="overlay-description rounded-lg font-burtons flex flex-col gap-3 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
             <h2 className="text-teal-600 font-burtons text-xl xl:text-4xl lg:text-3xl font-semibold">
               Starbucks Website Clon Design
             </h2>
