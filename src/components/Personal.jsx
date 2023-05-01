@@ -11,8 +11,7 @@ const Personal = () => {
           About me
         </h2>
         <p className="text-lg py-5 leading-8 text-white md:trxt-xl max-w-2xl mx-auto dark:text-gray-700">
-          My name is Patryk Rutkowski. I am a Junior Frontend Developer with 10
-          months of experience. I would describe myself as an ambitious person,
+          My name is Patryk Rutkowski. I am a Junior Frontend Developer. I would describe myself as an ambitious person,
           constantly striving for self-development and broadening his own
           horizons. My interest in Frontend Development has led me to constantly
           improve my programming skills and keep up with new tools and
