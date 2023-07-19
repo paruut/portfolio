@@ -11,7 +11,7 @@ const Personal = () => {
           About me
         </h2>
         <p className="text-lg py-5 leading-8 text-white md:trxt-xl max-w-2xl mx-auto dark:text-gray-700">
-          My name is Patryk Rutkowski. I'm a self-taughtfront-end developer
+          My name is Patryk Rutkowski. I'm a self-taught frontend developer
           who's not afraid of new technologies. I would describe myself as an
           ambitious person, constantly striving for self-development and
           broadening his own horizons. Programming is my passion so work is a

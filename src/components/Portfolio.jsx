@@ -33,7 +33,11 @@ const Portfolio = () => {
               Netflix clone
             </h2>
             <p className="text-slate-300 font-burtons text-md xl:text-xl">
-            The application leverages Axios API to retrieve and display movies. Users to browse through a collection of movies and select their favorite titles. The login and registration panel is available. After creating an account and logging in, you can add a movie to your favorites and then view them in the "Profile" tab.
+              The application leverages Axios API to retrieve and display
+              movies. Users to browse through a collection of movies and select
+              their favorite titles. The login and registration panel is
+              available. After creating an account and logging in, you can add a
+              movie to your favorites and then view them in the "Profile" tab.
             </p>
             <p className="text-teal-600 font-burtons font-semibold text-lg lg:text-xl">
               Tools: React JS, Tailwind, Firebase
