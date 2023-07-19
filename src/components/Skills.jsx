@@ -47,16 +47,19 @@ const Skills = () => {
           } text-center mx-auto max-w-[400px] s:w-[100%] shadow-sm shadow-teal-600 p-10 rounded-xl mt-10 border-gray-700 border-2 bg-gray-800 dark:bg-slate-100`}
         >
           <p className="text-lg py-2 tracking-wider text-stone-300 dark:text-gray-600">
-            HTML5, <br />
-            CSS/SCSS, <br />
-            JavaScript, <br />
-            TailwindCSS, <br />
-            Styled-components, <br />
-            React, <br />
-            React Router, <br />
-            Redux, <br />
-            REST API, <br />
-            Git/GitHub
+            React / Router / Redux <br />
+            JavaScript <br />
+            HTML <br />
+            CSS / SCSS <br />
+            RWD <br />
+            Jest / Vitest <br />
+            Vite <br />
+            REST API <br />
+            Figma <br />
+            Material-UI (MUI) / daisyUI <br />
+            Tailwind CSS / styled-components <br />
+            Git / GitHub / Bitbucket <br />
+            ESLint / Prettier <br />
           </p>
         </div>
 
@@ -116,9 +119,13 @@ const Skills = () => {
             - I am responsible for developing an application in React. My tasks
             include creating and modifying user interface components, managing
             application state using React state management, and integrating the
-            application with the backend;<br></br>- I also try to acquire new skills in
-            other technologies that may be useful in my work as a frontend
-            developer;
+            application with the backend;<br></br>- I also try to acquire new
+            skills in other technologies that may be useful in my work as a
+            frontend developer;<br></br>- Additionally, I aminvolved in
+            configuring Electron to enable desktop functionality forthe
+            application. This involves utilizing Electron's capabilities to
+            package and deploy the React application as a standalone desktop
+            application formultiple platforms, such asWindows/macOS/Linux;
           </p>
         </div>
 
@@ -128,7 +135,7 @@ const Skills = () => {
           } text-center mx-auto max-w-[400px] s:w-[100%] shadow-sm shadow-teal-600 p-10 rounded-xl mt-10 border-2 border-gray-700 bg-gray-800 dark:bg-slate-100`}
         >
           <span className="text-lg py-2 capitalize tracking-wider text-teal-600">
-            2022 - 2025
+            2022 - Present
           </span>
           <h3 className="text-2xl pt-2 font-bold tracking-wider text-stone-300 dark:text-gray-600">
             Computer Science
@@ -137,7 +144,7 @@ const Skills = () => {
             Engineer's degree
           </p>
           <h4 className="text-lg py-1 tracking-wider text-stone-400 dark:text-gray-600">
-            WSB Warsaw University
+            WSB Merito Warsaw University
           </h4>
         </div>
       </div>
