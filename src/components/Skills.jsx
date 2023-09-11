@@ -73,8 +73,8 @@ const Skills = () => {
             REST API <br />
             Figma <br />
             ESLint <br />
-            Material-UI (MUI) <br />
-            daisyUI <br />
+            Material-UI (MUI) / daisyUI <br />
+            Adobe Photoshop (basic) <br />
           </p>
           <h3 className="text-lg uppercase font-bold tracking-widest text-stone-500 dark:text-gray-600">
             Soft skills
@@ -85,27 +85,10 @@ const Skills = () => {
             Creativity, open-mindedness <br />
             Self-discipline <br />
             Time menagement <br />
+            Independence <br />
           </p>
         </div>
 
-        <div
-          className={`${
-            toggleState === 2 ? "content active-content" : "content"
-          } text-center mx-auto max-w-[400px] s:w-[100%] shadow-sm shadow-teal-600 p-10 rounded-xl mt-10 border-2 border-gray-700 bg-gray-800 dark:bg-slate-100`}
-        >
-          <span className="text-lg py-2 uppercase tracking-wider text-teal-600">
-            Aug 2022 - Sep 2022
-          </span>
-          <h3 className="text-2xl py-2 font-bold tracking-wider text-stone-300 dark:text-gray-600">
-            Junior Frontend Developer
-          </h3>
-          <h4 className="text-lg py-1 tracking-wider text-stone-400 dark:text-gray-600">
-            IBPM S.A., Warsaw
-          </h4>
-          <p className="text-lg py-1 tracking-wider text-stone-400 dark:text-gray-600">
-            Intern
-          </p>
-        </div>
         <div
           className={`${
             toggleState === 2 ? "content active-content" : "content"
@@ -118,14 +101,19 @@ const Skills = () => {
             Junior Frontend Developer
           </h3>
           <h4 className="text-lg py-1 tracking-wider text-stone-400 dark:text-gray-600">
-            DKSoftware
+            DKSoftware - project
           </h4>
           <p className="text-md py-1 tracking-wider text-stone-50 dark:text-gray-600">
             - I was responsible for creating web applications using technologies
             such as HTML5, CSS, TailwindCSS, JavaScript, and React;
           </p>
           <p className="text-md py-1 tracking-wider text-stone-50 dark:text-gray-600">
-            - built single page applications using REST API communication;
+            - Built single page applications using REST API communication;
+          </p>
+          <p className="text-md py-1 tracking-wider text-stone-50 dark:text-gray-600">
+            - I actively participated in one project, where I learned and
+            implemented simple components, contributing to the project's overall
+            success;
           </p>
         </div>
         <div
@@ -140,7 +128,7 @@ const Skills = () => {
             Junior Frontend Developer
           </h3>
           <h4 className="text-lg py-1 tracking-wider text-stone-400 dark:text-gray-600">
-            Teldasoft
+            Teldasoft - 3 projects
           </h4>
           <p className="text-md py-1 tracking-wider text-stone-50 dark:text-gray-600">
             - I am responsible for developing an application in React. My tasks
@@ -149,14 +137,18 @@ const Skills = () => {
             application with the backend;
           </p>
           <p className="text-md py-1 tracking-wider text-stone-50 dark:text-gray-600">
-            - I also try to acquire new skills in other technologies that may be
-            useful in my work as a frontend developer;
+            - Additionally, I am involved in configuring Electron to enable
+            desktop functionality for the application. This involves utilizing
+            Electron's capabilities to package and deploy the React application
+            as a standalone desktop application for multiple platforms;
           </p>
           <p className="text-md py-1 tracking-wider text-stone-50 dark:text-gray-600">
-            - Additionally, I aminvolved in configuring Electron to enable
-            desktop functionality forthe application. This involves utilizing
-            Electron's capabilities to package and deploy the React application
-            as a standalone desktop application formultiple platforms.
+            - I had the opportunity to participate in three projects. In these
+            projects, I contributed to various aspects of development, enhancing
+            my experience and skills as a frontend developer. This hands-on
+            experience also complemented my proactive approach to acquiring new
+            skills in other technologies that could be valuable in my role as a
+            frontend developer;
           </p>
         </div>
 

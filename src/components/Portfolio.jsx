@@ -30,7 +30,7 @@ const Portfolio = () => {
           />
           <div className="overlay-description rounded-lg flex flex-col gap-3 justify-center items-center p-4 absolute w-[100%] h-[100%] inset-0 opacity-0">
             <h2 className="text-teal-600 font-burtons text-xl xl:text-4xl lg:text-3xl font-semibold">
-              Netflix clone
+              Netflix clone 
             </h2>
             <p className="text-slate-300 font-burtons text-md xl:text-xl">
               The application leverages Axios API to retrieve and display
@@ -40,7 +40,7 @@ const Portfolio = () => {
               movie to your favorites and then view them in the "Profile" tab.
             </p>
             <p className="text-teal-600 font-burtons font-semibold text-lg lg:text-xl">
-              Tools: React JS, Tailwind, Firebase
+              Tools: - React/Redux/Axios/Vite/Firebase/TailwindCSS
             </p>
             <a
               className="py-3 px-3 no-underline text-center text-md xl:text-xl mt-2 font-semibold uppercase text-slate-300 rounded-lg bg-gray-800 border border-teal-600"
