@@ -10,7 +10,6 @@ const Skills = () => {
 
   return (
     <section className="font-burtons">
-      {/* tabs start */}
       <div className="flex justify-center flex-wrap gap-5 xl:gap-10">
         <span
           className={`${
@@ -38,8 +37,6 @@ const Skills = () => {
         </span>
       </div>
 
-      {/* tabs end */}
-
       <div className="content-tabs">
         <div
           className={`${
@@ -51,30 +48,29 @@ const Skills = () => {
           </h3>
           <p className="text-md py-2 tracking-wider text-stone-300 dark:text-gray-600">
             HTML <br />
+            CSS (SCSS/Sass/Tailwind) <br />
             JavaScript <br />
-            CSS (SCSS, Tailwind CSS, styled-components) <br />
           </p>
           <h3 className="text-lg uppercase font-bold tracking-widest text-stone-500 dark:text-gray-600">
             Technologies
           </h3>
           <p className="text-md py-2 tracking-wider text-stone-300 dark:text-gray-600">
-            React / Router / Redux <br />
-            Electron <br />
-            Electron-builder <br />
+            React/Router <br />
+            Redux/Context API for state management <br />
+            Electron/Electron-builder <br />
             RWD <br />
-            Jest / Vitest <br />
-            Vite <br />
+            Jest/Vitest <br />
           </p>
           <h3 className="text-lg uppercase font-bold tracking-widest text-stone-500 dark:text-gray-600">
             Other
           </h3>
           <p className="text-md py-2 tracking-wider text-stone-300 dark:text-gray-600">
-            Git / GitHub / Bitbucket <br />
-            REST API <br />
+            Git/GitHub <br />
+            REST API/Axios <br />
+            Webpack/Babel <br />
+            BitBucket/Jira/YouTrack <br />
             Figma <br />
-            ESLint <br />
-            Material-UI (MUI) / daisyUI <br />
-            Adobe Photoshop (basic) <br />
+            ESlint <br />
           </p>
           <h3 className="text-lg uppercase font-bold tracking-widest text-stone-500 dark:text-gray-600">
             Soft skills
@@ -88,7 +84,37 @@ const Skills = () => {
             Independence <br />
           </p>
         </div>
-
+        <div
+          className={`${
+            toggleState === 2 ? "content active-content" : "content"
+          } text-center mx-auto max-w-[400px] s:w-[100%] shadow-sm shadow-teal-600 p-10 rounded-xl mt-10 border-2 border-gray-700 bg-gray-800 dark:bg-slate-100`}
+        >
+          <span className="text-lg py-2 tracking-wider text-teal-600">
+            JAN 2023 - curently
+          </span>
+          <h3 className="text-2xl py-2 font-bold tracking-wider text-stone-300 dark:text-gray-600">
+            Junior Frontend Developer
+          </h3>
+          <h4 className="text-lg py-1 tracking-wider text-stone-400 dark:text-gray-600">
+            Teldasoft - 3 projects
+          </h4>
+          <p className="text-md py-1 tracking-wider text-stone-50 dark:text-gray-600">
+            - Developing applications in React, including creating and modifying
+            user interface components, managing application state with React
+            state management, and integrating with the backend;
+          </p>
+          <p className="text-md py-1 tracking-wider text-stone-50 dark:text-gray-600">
+            - Configured Electron to enable desktop functionality, utilizing its
+            capabilities to package and deploy the React application as a
+            standalone desktop application across multiple platforms;
+          </p>
+          <p className="text-md py-1 tracking-wider text-stone-50 dark:text-gray-600">
+            - Contributed to three projects, enhancing my development skills and
+            experience as a frontend developer. This hands-on experience
+            complemented my proactive approach to acquiring new skills in other
+            valuable technologies;
+          </p>
+        </div>
         <div
           className={`${
             toggleState === 2 ? "content active-content" : "content"
@@ -101,73 +127,36 @@ const Skills = () => {
             Junior Frontend Developer
           </h3>
           <h4 className="text-lg py-1 tracking-wider text-stone-400 dark:text-gray-600">
-            DKSoftware - project
+            DKSoftware - 1 project
           </h4>
           <p className="text-md py-1 tracking-wider text-stone-50 dark:text-gray-600">
-            - I was responsible for creating web applications using technologies
-            such as HTML5, CSS, TailwindCSS, JavaScript, and React;
+            - Developed web applications withHTML, CSS, TailwindCSS, JavaScript,
+            and React;
           </p>
           <p className="text-md py-1 tracking-wider text-stone-50 dark:text-gray-600">
-            - Built single page applications using REST API communication;
+            - Created single-page applications with REST API communication;
           </p>
           <p className="text-md py-1 tracking-wider text-stone-50 dark:text-gray-600">
-            - I actively participated in one project, where I learned and
-            implemented simple components, contributing to the project's overall
-            success;
+            - Actively participated in a project, learning and implementing
+            components that contributed to its overall success;
           </p>
         </div>
-        <div
-          className={`${
-            toggleState === 2 ? "content active-content" : "content"
-          } text-center mx-auto max-w-[400px] s:w-[100%] shadow-sm shadow-teal-600 p-10 rounded-xl mt-10 border-2 border-gray-700 bg-gray-800 dark:bg-slate-100`}
-        >
-          <span className="text-lg py-2 tracking-wider text-teal-600">
-            JAN 2023 - Present
-          </span>
-          <h3 className="text-2xl py-2 font-bold tracking-wider text-stone-300 dark:text-gray-600">
-            Junior Frontend Developer
-          </h3>
-          <h4 className="text-lg py-1 tracking-wider text-stone-400 dark:text-gray-600">
-            Teldasoft - 3 projects
-          </h4>
-          <p className="text-md py-1 tracking-wider text-stone-50 dark:text-gray-600">
-            - I am responsible for developing an application in React. My tasks
-            include creating and modifying user interface components, managing
-            application state using React state management, and integrating the
-            application with the backend;
-          </p>
-          <p className="text-md py-1 tracking-wider text-stone-50 dark:text-gray-600">
-            - Additionally, I am involved in configuring Electron to enable
-            desktop functionality for the application. This involves utilizing
-            Electron's capabilities to package and deploy the React application
-            as a standalone desktop application for multiple platforms;
-          </p>
-          <p className="text-md py-1 tracking-wider text-stone-50 dark:text-gray-600">
-            - I had the opportunity to participate in three projects. In these
-            projects, I contributed to various aspects of development, enhancing
-            my experience and skills as a frontend developer. This hands-on
-            experience also complemented my proactive approach to acquiring new
-            skills in other technologies that could be valuable in my role as a
-            frontend developer;
-          </p>
-        </div>
-
         <div
           className={`${
             toggleState === 3 ? "content active-content" : "content"
           } text-center mx-auto max-w-[400px] s:w-[100%] shadow-sm shadow-teal-600 p-10 rounded-xl mt-10 border-2 border-gray-700 bg-gray-800 dark:bg-slate-100`}
         >
           <span className="text-lg py-2 capitalize tracking-wider text-teal-600">
-            2022 - Present
+            2022 - currently
           </span>
           <h3 className="text-2xl pt-2 font-bold tracking-wider text-stone-300 dark:text-gray-600">
-            Computer Science
+            WSB Merito Warsaw University
           </h3>
-          <p className="text-lg tracking-wider text-stone-500 dark:text-gray-600">
-            Engineer's degree
+          <p className="text-xl tracking-wider text-stone-500 dark:text-gray-600">
+            Computer Science
           </p>
           <h4 className="text-lg py-1 tracking-wider text-stone-400 dark:text-gray-600">
-            WSB Merito Warsaw University
+            Engineer's degree
           </h4>
         </div>
       </div>

@@ -11,17 +11,17 @@ const Personal = () => {
           About me
         </h2>
         <p className="text-lg py-5 leading-8 text-white md:trxt-xl max-w-2xl mx-auto dark:text-gray-700">
-          I would describe myself as an ambitious, highly productive, and
-          effective individual, constantly striving for self-development and
-          eager to broaden my horizons. As a self-taught frontend developer, I
-          embrace new technologies with enthusiasm and see programming as both
-          my passion and a source of immense pleasure in my work. I have a
-          strong commitment to continuous learning, always seeking to enhance my
-          skills and explore new libraries to become an even more proficient
-          developer. Constructive criticism is something I value greatly, as it
-          helps me refine my craft and aligns with my professional goals. I am
-          currently seeking a permanent position to apply and further develop
-          these skills in a professional setting.
+          I am an ambitious and highly productive frontend developer with a
+          strong commitmentto self-development and continuous learning.
+          Passionate about programming, I embrace new technologies
+          enthusiastically and find immense pleasure in my work. As a
+          self-taught developer, I actively seek opportunities to enhance my
+          skills and explore new libraries, striving to become even more
+          proficientin my craft. I greatly value constructive criticism, as it
+          helps me refine my skills and align with my professional goals.
+          Currently, I am seeking a permanent position where I can apply my
+          skills in a professional setting and continue my growth as a
+          developer.
         </p>
       </div>
     </section>
